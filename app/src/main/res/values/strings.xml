@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Калькулятор</string>
+    <string name="whatis">\Калькулятор (новая реинкарнация)</string>
+    <string name="sci_type">Инженерный</string>
+    <string name="std_type">Стандартный</string>
+    <string name="calc_type">Вид</string>
+</resources>
