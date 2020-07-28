@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_clear_background"
+        android:orderInCategory="100"
+        android:title="@string/clear_background"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_default_background"
+        android:orderInCategory="100"
+        android:title="@string/default_background"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_load_background"
+        android:orderInCategory="100"
+        android:title="@string/load_background"
+        app:showAsAction="never" />
+
+</menu>

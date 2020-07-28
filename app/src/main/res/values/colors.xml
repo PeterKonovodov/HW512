@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimary">#BC91F8</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="colorScreenBG">#A6A18F</color>
@@ -8,4 +8,5 @@
     <color name="colorActionKeys">#F67233</color>
     <color name="colorAction2Keys">#F40606</color>
     <color name="colorNormalKeys">#AEAEAE</color>
+    <color name="colorFileNameField">#FFFFFF</color>
 </resources>

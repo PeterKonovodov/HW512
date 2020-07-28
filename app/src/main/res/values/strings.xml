@@ -1,7 +1,16 @@
 <resources>
     <string name="app_name">Калькулятор</string>
-    <string name="whatis">\Калькулятор (новая реинкарнация)</string>
+    <string name="whatis"> </string>
     <string name="sci_type">Инженерный</string>
     <string name="std_type">Стандартный</string>
     <string name="calc_type">Вид</string>
+    <string name="default_background">фон по умолчанию</string>
+    <string name="clear_background">удалить фон</string>
+    <string name="load_background">фон из файла</string>
+    <string name="load_error">Ошибка загрузки файла!</string>
+    <string name="file_loaded">Файл загружен!</string>
+
+
+
+
 </resources>

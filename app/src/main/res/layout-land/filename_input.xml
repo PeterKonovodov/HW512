@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/filenameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="invisible"
+    tools:visibility="visible">
+
+
+    <TextView
+        android:id="@+id/titleDownloads"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/colorFileNameField"
+        android:gravity="center|end"
+        android:text="Downloads/"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editTextFileName"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:background="@color/colorFileNameField"
+        android:ems="10"
+        android:hint="12.jpg"
+        tools:ignore="HardcodedText"
+        android:inputType="textEmailAddress"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/titleDownloads"
+        app:layout_constraintTop_toTopOf="@id/titleDownloads"
+        tools:layout_editor_absoluteX="168dp" />
+
+    <Button
+        android:id="@+id/loadButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        tools:ignore="HardcodedText"
+        android:text="load"
+        app:layout_constraintStart_toEndOf="@+id/editTextFileName"
+        app:layout_constraintTop_toTopOf="@id/editTextFileName" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
